@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/susi-{{ version }}.zip
-  sha256: 67db357398ae2d65d0281031ef0bf9e4734348e9d109b19f37cc38b742ca7144
+  sha256: f2d58839ac2284f48709b11ec5f950fbd41fa471186a8785477443acf9ddf0a7
 
 build:
   number: 0
