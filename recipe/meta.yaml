@@ -18,6 +18,7 @@ build:
 requirements:
   host:
     - pip
+    - setuptools
     - python >=3.9
   run:
     - joblib >=0.13.0
