@@ -1,5 +1,5 @@
 {% set name = "susi" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/susi-{{ version }}.zip
-  sha256: a47ec6ac5521f9538208d654ed335e8e61336299d4cd7b9ea7854c240e0f1948
+  sha256: cc73733132f9085a55abdde71c0d8893b1f8f2dad1f1b49772977ecd85335231
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
